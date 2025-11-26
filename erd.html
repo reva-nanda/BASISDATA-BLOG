@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Post 5</title>
+    <link rel="stylesheet" href="erd.css">
+</head>
+<body>
+    
+                <div class="container">
+                    <div class="header">
+                        <h1 class="judul">Tugas 3</h1>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="hero"></div>
+                    <div class="content">
+                        <h2>Pengertian Primary key, Foreign key, dan Candidate key</h2>
+                        <p class="penulis">Ditulis Oleh <a href="#">
+                            Reva Nanda Effendi</a>. pada 10 Oktober 2025.</p>
+
+                        <p>Dalam basis data, kunci atau key digunakan untuk mengenali dan menghubungkan data antar tabel. Tiga jenis kunci yang paling sering digunakan adalah primary key, foreign key, dan candidate key. Ketiganya berfungsi untuk menjaga agar data tersimpan dengan rapi, unik, dan tidak terjadi kesalahan dalam proses pengolahan data.</p>
+
+                        <p>Primary key adalah kunci utama yang digunakan untuk membedakan setiap baris data dalam sebuah tabel, misalnya NIM pada tabel mahasiswa. Foreign key berfungsi untuk menghubungkan satu tabel dengan tabel lainnya, seperti NIM pada tabel nilai yang terhubung ke tabel mahasiswa. Sedangkan candidate key merupakan atribut yang berpotensi menjadi primary key karena memiliki nilai unik, misalnya NIM atau alamat email. Dengan adanya ketiga kunci ini, data dalam sistem menjadi lebih terstruktur dan saling terhubung dengan baik.</p>
+
+                        <p>Memahami primary key, foreign key, dan candidate key sangat penting bagi siapa pun yang belajar tentang basis data. Dengan memahami fungsinya, kita dapat merancang sistem penyimpanan data yang efisien, teratur, dan mudah dikelola. Selain itu, penggunaan kunci dengan benar juga membantu menjaga keakuratan dan keterhubungan data di dalam sistem informasi.</p>   
+                        
+                        
+                            <h3>Berikut masing-masing 5 contoh penerapan:</h3>
+
+                                <table border="1" cellspacing="0" cellpadding="10" class="tabel-contoh">
+                                <tr>
+                                    <th>Jenis Key</th>
+                                    <th>Contoh di ERD</th>
+                                    <th>Keterangan</th>
+                                </tr>
+                                <tr>
+                                    <td><b>Primary Key</b></td>
+                                    <td>id_mahasiswa, id_dosen, id_matkul, id_nilai, id_transaksi</td>
+                                    <td>Identitas unik di tiap tabel</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Foreign Key</b></td>
+                                    <td>
+                                    id_mahasiswa (di tabel nilai), id_dosen (di tabel matkul),<br>
+                                    id_matkul (di tabel nilai), id_barang (di tabel transaksi),<br>
+                                    id_kelas (di tabel mahasiswa)
+                                    </td>
+                                    <td>Menghubungkan antar tabel</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Candidate Key</b></td>
+                                    <td>
+                                    NIM (mahasiswa), NIDN (dosen), kode_matkul (matkul),<br>
+                                    kode_barang (inventori), no_transaksi (pembelian)
+                                    </td>
+                                    <td>Atribut unik yang bisa dijadikan kunci utama</td>
+                                </tr>
+                                </table>
+                                <br>
+                        <p>
+                            Dari tabel di atas terlihat bahwa NIM bertindak sebagai <b>Primary Key</b>, sedangkan
+                            <b>Kode Mata Kuliah</b> berperan sebagai <b>Foreign Key</b> yang menghubungkan tabel Mahasiswa
+                            dengan tabel Mata Kuliah. Sedangkan <b>Candidate Key</b> adalah atribut lain yang juga bisa
+                            berfungsi sebagai kunci unik jika dipilih.
+                        </p>
+
+                    </div>
+<div class="footer">
+<p class="copy">Copy 2025.
+RevaNandaEfendi
+</p>
+</div>
+</div>
+               
+
+</body>
+</html>

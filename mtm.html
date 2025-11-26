@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Post 1</title>
+    <link rel="stylesheet" href="mtm.css">
+</head>
+<body>
+    
+                <div class="container">
+                    <div class="header">
+                        <h1 class="judul">Tugas 2</h1>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="hero"></div>
+                    <div class="content">
+                        <h2>Pengertian Relation pada ERD dan mengapa Many-to-Many tidak disarankan pada ERD</h2><br>
+                        <p class="penulis">Ditulis Oleh <a href="#">
+                            Reva Nanda Effendi</a>. pada 10 Oktober 2025.</p>
+                        <h2>Apa itu relation dalam ERD</h2>
+
+                        <p>Dalam ERD (Entity Relationship Diagram), relation atau relasi adalah hubungan antara dua atau lebih entitas yang saling terhubung melalui data. Relasi menggambarkan bagaimana satu entitas berinteraksi dengan entitas lainnya, misalnya hubungan antara Mahasiswa dan Mata Kuliah. Setiap relasi biasanya memiliki tingkat hubungan tertentu seperti one-to-one (1:1), one-to-many (1:N), atau many-to-many (M:N).</p>
+
+                        <h2>Mengapa Many-to-Many tidak baik digunakan pada ERD</h2>
+                        <p>Relasi pada ERD memiliki beberapa jenis, yaitu one-to-one (1:1), one-to-many (1:N), dan many-to-many (M:N). Namun, hubungan many-to-many tidak disarankan digunakan secara langsung karena dapat menimbulkan kerumitan dalam penyimpanan dan pengolahan data. Misalnya, ketika satu mahasiswa mengambil banyak mata kuliah, dan satu mata kuliah juga diambil oleh banyak mahasiswa, maka data bisa menjadi tidak efisien. Untuk mengatasinya, hubungan many-to-many biasanya diubah menjadi dua one-to-many melalui tabel perantara, seperti tabel KRS atau Pengambilan_MK.</p>
+
+                        <p>Dengan adanya tabel perantara, hubungan antar entitas menjadi lebih teratur dan mudah dikelola. Pendekatan ini membantu menghindari duplikasi data dan menjaga integritas hubungan antar tabel. Oleh karena itu, memahami cara kerja relasi, termasuk penanganan many-to-many, sangat penting bagi siapa pun yang ingin merancang basis data yang efisien, terstruktur, dan mudah dikembangkan.</p>     
+                    </div>
+                     <div class="footer">
+                    <p class="copy">Copy 2025.
+                        RevaNandaEfendi
+                    </p>
+                </div>
+                </div>
+               
+
+</body>
+</html>
